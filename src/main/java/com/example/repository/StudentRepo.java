@@ -1,7 +1,7 @@
 package com.example.repository;
 
 import com.example.entity.Student;
-import org.hibernate.query.criteria.JpaFetchParent;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface StudentRepo extends JpaFetchParent<Student,Long> {
+public interface StudentRepo extends JpaRepository<Student,Long> {
 }
